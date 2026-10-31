@@ -32,6 +32,17 @@ Original user evaluation data collected for the KANO analysis, from which the SI
 -Figure 3. Vector diagram of service demand hierarchy classification
 -Table 6. Classification of community elderly care service need hierarchy
 
+## 3 Dataset file name:
+preexisting_system_sus.csv
+proposed_system_sus.csv
+
+### Description:
+Original user evaluation data collected through the System Usability Scale (SUS) questionnaire for the pre-existing/proposed system.
+
+### Underlying data for:
+SUS score calculation and usability evaluation of the pre-existing/proposed system.
+
+
 
 ## 1 Python code file name:
 
@@ -56,4 +67,16 @@ The demand priorities were analyzed using the EWM-TOPSIS combined model.
 
 ### Underlying code for:
 -Figure 4. TOPSIS relative closeness scores
+
+
+## 3 Python code file name:
+sus_analysis.py
+
+### Description:
+Underlying code used to process the SUS questionnaire data, calculate SUS scores, and perform statistical analysis of system usability.
+
+### Underlying code for:
+SUS score calculation for the pre-existing system and the proposed system.
+Comparative statistical analysis of usability between the two systems.
+
 
