@@ -79,4 +79,18 @@ Underlying code used to process the SUS questionnaire data, calculate SUS scores
 SUS score calculation for the pre-existing system and the proposed system.
 Comparative statistical analysis of usability between the two systems.
 
+## 4 Python code file name:
+F_AHP.py
+
+### Description:
+This script provides an example implementation of the GFAHP calculation using the criteria-layer Gaussian fuzzy judgment matrix reported in Table 10. Each pairwise comparison is represented as a Gaussian fuzzy number (μ, σ). 
+The script calculates the normalized weight vector and reports the corresponding consistency and compatibility diagnostics.
+
+### Underlying code for:
+Table 10. Fuzzy judgment matrix and weights of the goal layer
+
+### Tested environment:
+- Python 3.12.14
+- NumPy 2.3.5
+
 
